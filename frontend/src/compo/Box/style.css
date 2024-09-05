@@ -1,0 +1,57 @@
+.BoxMain_nab{
+    width:80%;
+    height: 160px;
+    margin-left:10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    /* margin-top: 50px; */
+    /* background-color:  linear-gradient(#4b2d0b,transparent,#a96447) ; */
+    background: linear-gradient(#4b2d0b,#a96447);
+    filter: grayscale(30%);
+   
+}
+.textt_nab{
+    font-size: 40px;
+    padding-top: 30px;
+    /* padding-left: 50px; */
+    color:white;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 20px #fa8609,
+    0 0 40px #fa8609,
+    0 0 80px #fa8609,
+    0 0 1600px #fa8609;
+    animation: animated 5s linear infinite;
+}
+@keyframes animated{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color:white;
+        text-shadow: none;
+    }
+    18.1%,20.1%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color:white;
+        text-shadow: 0 0 20px #fa8609,
+        0 0 40px #fa8609,
+        0 0  80px #fa8609,
+        0 0 1600px #fa8609;
+    }
+}
+.textt2_nab{
+    padding-top: 6px;
+    /* padding-left: 50px; */
+    color:white;
+    font-size: 20px;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+       
+        
+
+    
+
+   

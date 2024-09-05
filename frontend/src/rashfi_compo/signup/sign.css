@@ -1,0 +1,257 @@
+/* Assuming the unique class is `my-component` */
+
+/* General reset and global styles */
+.my-component * {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #4B2D0B;
+}
+
+.my-component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../photos/Untitled design.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+}
+
+.my-component .square {
+  display: flex;
+}
+
+.my-component .square-child1 {
+  background-color: white;
+  width: 400px;
+  height: 600px;
+}
+
+.my-component .square-child2 {
+  background-color: white;
+  width: 540px;
+  height: 600px;
+}
+
+.my-component .header {
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../photos/Untitled (1000 x 800 px).png');
+  background-size: cover;
+  position: relative;
+}
+
+.my-component .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  max-height: 600px;
+}
+
+.my-component .mySlides {
+  display: none;
+}
+
+.my-component .prev, .my-component .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.my-component .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.my-component .prev:hover, .my-component .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.my-component .textsi {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.my-component .numbertextsi {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.my-component .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: tan;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.my-component .active, .my-component .dot:hover {
+  background-color: #4B2D0B;
+}
+
+.my-component .fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+.my-component .center {
+  width: 540px;
+  height: 600px;
+  border-radius: 5px;
+  position: relative;
+  overflow-y: auto; /* Enable scroll only for the form if needed */
+  color: tan;
+  background: none;
+}
+
+.my-component .center .heading {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.my-component .center .btns {
+  display: flex;
+  padding: 40px 0 20px 30px;
+}
+
+.my-component .btns a {
+  text-decoration: none;
+  padding: 15px 15px;
+  font-size: 14px;
+  color: #4B2D0B;
+  font-family: 'Poppins', sans-serif;
+  background: tan;
+  border-radius: 20px;
+  margin-left: 20px;
+  border: 1px solid #4B2D0B;
+}
+
+.my-component .a2 {
+  background: white;
+  margin-left: 50px;
+}
+
+.my-component .center .header {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  padding: 5px 0 30px 0;
+}
+
+.my-component form input {
+  height: 40px;
+  width: 200px;
+  font-size: 13px;
+  color: brown;
+  background: none;
+  border: 1px solid #4B2D0B;
+  border-radius: 2px;
+  padding: 0 10px;
+  margin-left: 35px;
+  outline: none;
+}
+
+.my-component .status {
+  height: 45px;
+  width: 450px;
+  font-size: 13px;
+  background: none;
+  border: 1px solid #4B2D0B;
+  border-radius: 5px;
+  margin-left: 35px;
+  outline: none;
+  color: #4B2D0B;
+  margin-top: 20px;
+}
+
+.my-component ::placeholder {
+  color: grey;
+}
+
+.my-component form input.lstname {
+  margin-left: 20px;
+}
+
+.my-component form input.email {
+  width: 445px;
+  margin-top: 20px;
+}
+
+.my-component form input.date {
+  width: 445px;
+  margin-top: 20px;
+}
+
+.my-component form input[type="submit"] {
+  margin: 30px 0 40px 35px;
+  width: 465px;
+  height: 50px;
+  font-size: 23px;
+  cursor: pointer;
+  color: white;
+  background: tan;
+}
+
+.my-component form input[type="submit"]:hover {
+  background: #4B2D0B;
+  transition: 0.5s;
+}
+
+.my-component .center .loginForm {
+  display: none;
+  background: none;
+}
+
+.my-component .center .signupError {
+  user-select: none;
+  font-size: 15px;
+  text-align: center;
+  padding: 8px 0;
+  color: red;
+  display: none;
+}
+
+.btnsi-primary {
+  background-color: #4B2D0B; /* Change this to your desired background color */
+  color: #fff; /* Change this to your desired text color */
+  border: none; /* Remove border if not needed */
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 130px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btnsi-primary:hover {
+  background-color: #D2B48C; /* Change this to your desired hover background color */
+  color: black;
+}

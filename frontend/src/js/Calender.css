@@ -1,0 +1,76 @@
+.color-empty {
+ fill: #ebedf0;
+}
+
+.color-level-0 {
+ fill: #fff5e0;
+}
+
+.color-level-1 {
+ fill: #ffcb94;
+}
+
+.color-level-2 {
+ fill: #d89560;
+}
+
+.color-level-3 {
+ fill: #9e6230;
+}
+
+.color-level-4 {
+ fill: #4d2b0c;
+}
+
+.heatmap-svg {
+ width: 1500px; /* Adjust width as needed */
+ height: 200px; /* Adjust height as needed */
+}
+
+.svg-tip {
+ padding: 10px;
+ background: rgba(0, 0, 0, 0.8);
+ color: #bbb;
+ font-size: 12px;
+ position: absolute;
+ z-index: 99999;
+ text-align: center;
+ border-radius: 3px;
+}
+
+.svg-tip:after {
+ box-sizing: border-box;
+ position: absolute;
+ left: 50%;
+ height: 5px;
+ width: 5px;
+ bottom: -10px;
+ margin: 0 0 0 -5px;
+ content: " ";
+ border: 5px solid transparent;
+ border-top-color: rgba(0, 0, 0, 0.8);
+}
+.tooltip {
+ background-color: rgba(0, 0, 0, 0.8);
+ color: #fff;
+ font-size: 12px;
+ padding: 5px;
+ border-radius: 3px;
+ z-index: 9999;
+}
+
+/* Adjust tooltip position */
+.tooltip {
+ /* Additional styles for positioning */
+ /* You may need to adjust these values based on your layout */
+ top: 0;
+ left: 0;
+}
+
+/* Adjust heatmap size */
+
+/* Adjust rectangle size */
+.heatmap-calendar rect.day {
+ width: 15px; /* Adjust width of rectangles */
+ height: 15px; /* Adjust height of rectangles */
+}

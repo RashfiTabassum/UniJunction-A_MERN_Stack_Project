@@ -1,0 +1,225 @@
+.about_nab {
+    background-color: white;
+    padding-top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:normal;
+    padding-bottom: 50px;
+    
+}
+
+
+.about-container_nab {
+    max-width: 1330px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content_nab {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.section-title_nab {
+    font-size: 100px;
+
+    height: 60%;
+    color: #333;
+    left:70%;
+    top:8%;
+    position: relative;
+    margin-bottom: 20px;
+    animation: textShadowAnimation 2s infinite alternate;
+}
+
+.section-text_nab{
+   /* height:1015 px;
+   position: inherit; */
+    font-size: 20px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    animation: textShadowAnimation 2s ease-in-out;
+}
+
+
+
+
+/* .about-list {
+    
+   
+    
+    
+    
+} */
+.fa_nab{
+    margin-right:30px;
+    margin-left: -100px;
+    color: #333;
+    font-size: 24px;
+    flex-shrink: 0;
+    /* left:0; */
+    /* position: inherit; */
+   
+}
+.about-list_nab li{
+    
+    
+    /* width:400px;
+    display: flex;
+    text-align: left; 
+    
+    height: 20%;
+    margin-bottom: 10px; */
+    /* list-style: none; */
+    /* text-align: left; */
+    display: flex;
+    align-items: center;
+    width:300px;
+    height: 25%;
+    font-size: 20px;
+    color:#333;
+    padding-left: 200px;
+
+   
+} 
+ 
+
+
+.about-btn_nab {
+    display: flex;
+    justify-content:center;
+    /* background-color: #d2b48c; */
+
+    width:300px;
+    height: 80px;
+    /* color: black; */
+    padding: 15px 30px; 
+    border-radius: 5px;
+    margin:20px 0 0 0px;
+    font-size: 30px;
+    text-decoration: none;
+    /* transition: background-color 0.8s ease; */
+  
+    
+    background-color: rgba(255, 228, 196,1);
+    color:#333;
+    /* box-shadow: 0 0 15px rgba(210,180,140,1), */
+    /* 0 0 25px rgba(210,180,140,1); */
+    transition: .5s ease-in-out;
+    
+  }
+  
+ 
+
+    
+
+.about-btn_nab:hover
+  {
+    /* background-color: #dea151;
+    box-shadow: 0 0 15px #dea151,
+    0 0 25px #d0a474;
+    
+    color:#333;
+    transform: translateY(-15px); */
+    z-index: 2;
+    transform:  scale(.9);
+    animation: pulsebtn .5s linear forwards;
+  }
+@keyframes pulsebtn{ 
+    0%{
+        box-shadow: 0 0 15px rgba(255, 228, 196,1),
+    0 0 25px rgba(255, 228, 196,1);
+    }
+    50%{
+        box-shadow: 0 0 0 10px rgba(255, 228, 196,.5),
+    0 0 0 20px rgba(255, 228, 196,.5);
+    filter:blur(3px);
+    }
+    100%{
+        box-shadow: 0 0 0 20px  transparent    ,
+    0 0 0 60px  transparent     ;
+    }
+  }
+
+/* .about-btn:hover {
+    background-color: #4B2D0B;
+    color: white;
+    transform: translateY(-15px);
+} */
+
+.about-image_nab {
+    flex: 1;
+    
+    right:-10%;
+    top:-10%;
+   
+    background-size: cover;
+    background-position: center;
+    height: 470px;
+    width:400px;
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    margin-top: 150px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+}
+.about-image_nab video{
+    width:100%;
+    /* height:470px; */
+    border-radius: 10px;
+    box-shadow: 0 0  20px #d0a474,
+    0 0  40px #d0a474,
+    0 0 80px #d0a474;
+    /* animation: animate 5s linear infinite; */
+   
+    top:-5%;
+    /* left:40%; */
+    right:90px;
+    
+    position: relative;
+    
+    /* height:50%; */
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color:#d0a474;
+        box-shadow: none;
+    }
+    18.1%,20.1%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color:white;
+        box-shadow: 0 0 20px #d0a474,
+        0 0 40px #d0a474,
+        0 0 80px #d0a474,
+        0 0 1600px #d0a474
+    }
+       
+        
+
+    }
+.volume_nab{
+    top:-3%;
+    left:-10%;
+    stroke: white;
+    fill:black;
+    position: absolute;
+}
+.volume_nab:hover,
+.volume_nab:focus-visible{
+    animation:squish 200ms ease-in-out;
+}
+@keyframes squish{
+    50%{
+        scale:1.4 0.6;
+    }
+
+}
+@keyframes textShadowAnimation {
+    0% {
+      text-shadow: 0px 0px 0px rgba(191, 7, 7, 0);
+    }
+    100% {
+      text-shadow: 5px 5px 10px rgba(56, 1, 1, 0.5); /* Adjust shadow properties */
+    }
+}

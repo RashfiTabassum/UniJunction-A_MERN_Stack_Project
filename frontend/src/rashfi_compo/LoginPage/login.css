@@ -1,0 +1,101 @@
+
+/* ==== BASE ===== */
+.logi *{
+    margin: 100;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+.logi .background-radial-gradient {
+ height: 100vh; /* Change this value to adjust the height */
+ background-color: hsl(31, 29%, 60%);
+ background-image: radial-gradient(650px circle at 0% 0%,
+     hsl(30, 27%, 74%) 15%,
+     hsl(29, 40%, 87%) 35%,
+     hsl(31, 27%, 64%) 75%,
+     hsl(29, 32%, 70%) 80%,
+     transparent 100%),
+ radial-gradient(1250px circle at 100% 100%,
+ hsl(30, 27%, 74%) 15%,
+ hsl(30, 27%, 74%) 15%,
+     hsl(29, 40%, 87%) 35%,
+     hsl(31, 27%, 64%) 75%,
+     hsl(29, 32%, 70%) 80%,
+     transparent 100%);
+}
+
+
+
+
+ .logi #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(hsl(30, 50%, 58%), hsl(31, 26%, 61%));
+    overflow: hidden;
+  }
+
+  .logi #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(hsl(30, 50%, 58%), hsl(31, 26%, 61%));
+    overflow: hidden;
+  }
+
+  .logi .bg-glass {
+     background-color: rgba(112, 77, 16, 0.1); /* Transparent background */
+     backdrop-filter: blur(10px); /* Blur effect */
+ }
+ .logi .logoalo{
+     font-weight: bold;
+     color:rgb(255, 255, 255);
+     top:3px;
+     left:-30px;
+     position: absolute;
+     margin-top: 90px;
+     /* line-height: 80px; */
+     margin-left: 130px;
+     -webkit-box-reflect: below -16px linear-gradient(transparent,transparent,white);
+     /* line-height: .70px;  */
+     font-size: 50px;
+     /* outline: none; */
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     
+         /* text-shadow: 0 0 20px #6ae2f8;
+     animation: animate 5s linear infinite; */
+     color:white;
+     text-shadow: 0 0 20px #fa8609,
+     0 0 40px #fa8609,
+     0 0 80px #fa8609,
+     0 0 1600px #fa8609
+ }
+ .btnlo-primary {
+    background-color: #4B2D0B; /* Change this to your desired background color */
+    color: #fff; /* Change this to your desired text color */
+    border: none; /* Remove border if not needed */
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: -1000px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btnlo-primary:hover {
+    background-color: #e09e46; /* Change this to your desired hover background color */
+    color: black;
+  }
+  
+
+/* ===== Login Form Container ===== */
+
+
+/* ===== Register Form Container ===== */
+
+

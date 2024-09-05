@@ -1,0 +1,113 @@
+.nava{
+    width: 100%;
+    height:80px;
+    position: relative;
+    background: linear-gradient(#9e5d41,#af6e52);
+}
+.logoa{
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    top:3px;
+    left:-30px;
+    position: absolute;
+   
+    /* line-height: 80px; */
+    margin-left: 100px;
+    -webkit-box-reflect: below -16px linear-gradient(transparent,transparent,white);
+    /* line-height: .70px;  */
+    font-size: 50px;
+    /* outline: none; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+        /* text-shadow: 0 0 20px #6ae2f8;
+    animation: animate 5s linear infinite; */
+    color:white;
+    text-shadow: 0 0 20px #fa8609,
+    0 0 40px #fa8609,
+    0 0 80px #fa8609,
+    0 0 1600px #fa8609
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color:#0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color:white;
+        text-shadow: 0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 1600px #03bcf4
+    }
+       
+        
+
+    }
+
+.optiona{
+    top:30px;
+    left:1080px;
+    /* margin:30px; */
+    position: absolute;
+}
+.optiona li{
+    display: inline-block;
+    
+    margin:0 8px;
+}
+
+.aaa{
+    color: rgb(252, 252, 252);
+    font-size: 17px;
+    text-transform: uppercase;
+    border:1px solid transparent;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+.aaa:focus-visible,.aaa:hover
+{
+    border-bottom: 2.5px solid rgb(247, 242, 242);
+    transition:.3s;
+    color: white; /* Ensure link color stays white on hover */
+    text-decoration: none; /* Remove underline on hover if any */
+    
+}
+.menufaa
+{
+    float:right;
+    color:white;
+    font-size: 30px;
+    line-height: 80px;
+    margin-right: 100px;
+    /* position:absolute; */
+     cursor:pointer;
+    display:none;
+} 
+.userlogoa{
+    position: absolute;
+    z-index: 14;
+    color:white;
+    background-color: #361d03;
+    border-radius: 50%;
+    width:35px;
+    height: 35px;
+    top:25px;
+    right:70px;
+    display: flex;
+    justify-content: center;
+    border: 2.5px solid rgb(247, 242, 242);
+    
+    
+   
+  }
+  .userlogoa:focus-visible,
+  .userlogoa:hover{
+    animation:squish 200ms ease-in-out;
+  }
+  @keyframes squish{
+    50%{
+        scale:1.4 0.6;
+    }
+}
+

@@ -1,0 +1,99 @@
+.full-body_nab_become{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height:650px;
+    box-shadow: 0 0 15px rgba(67, 31, 3,.5),
+    0 0 25px rgba(67, 31, 3,.5),0 0 80px rgba(67, 31, 3,.5);
+    background-color:bisque;
+   
+    padding-bottom: 200px;
+    overflow: hidden;
+    border-radius: 300px 40px 270px;
+    border: 2px solid rgb(67, 31, 3);
+
+}
+
+.pic_nab_become{
+    width:600px;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+.content-body_nab_become{
+    color:#333;
+    margin:10px;
+
+}
+.content-title_nab_become{
+    font-size: 63px;
+    margin-left: 90px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    /* text-shadow: 0 0 20px #b4722d, */
+    /* 0 0 40px #fa8609,
+    0 0 80px #fa8609,
+    0 0 1600px #fa8609; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.content-subtitle_nab_become{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:10px;
+    
+}
+.content-list_nab_become{
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left:100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tutor-btn_nab_become{
+    margin-top: 50px;
+    margin-left: 20px;
+    width:400px;
+    background-color:rgb(88, 42, 2);
+    height:50px;
+    color:white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+.tutor-btn_nab_become:hover
+  {
+    /* background-color: #dea151;
+    box-shadow: 0 0 15px #dea151,
+    0 0 25px #d0a474;
+    
+    color:#333;
+    transform: translateY(-15px); */
+    box-shadow: 0 0 15px rgba(88, 42, 2,1),
+    0 0 25px rgba(88, 42, 2,1);
+    z-index: 2;
+    transform:  scale(.9);
+    animation: pulseexp1 .5s linear forwards;
+  }
+  @keyframes pulseexp1{ 
+    0%{
+        box-shadow: 0 0 15px rgba(88, 42, 2,1),
+    0 0 25px rgba(88, 42, 2,1);
+    }
+    50%{
+        box-shadow: 0 0 0 10px rgba(88, 42, 2,.5),
+    0 0 0 20px rgba(88, 42, 2,.5);
+    filter:blur(3px);
+    }
+    100%{
+        box-shadow: 0 0 0 20px  transparent    ,
+    0 0 0 60px  transparent     ;
+    }
+  }

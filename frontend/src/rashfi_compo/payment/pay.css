@@ -1,0 +1,289 @@
+/* Update CSS for PAYMENT component */
+
+/* General CSS */
+.payment-container * {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+.payment-container {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+.payment-container::before {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-image: url('../photos/stu.jpg');
+ background-size: cover;
+ filter: blur(8px); /* Adjust the blur radius as needed */
+ z-index: -1; /* Ensure the pseudo-element is behind other content */
+}
+
+
+/* Body CSS */
+.payment-container body {
+ background: url('../photos/stu.jpg');
+ background-position: center;
+ /* background-size: cover; */
+ backdrop-filter: blur(8px);
+ color: #4B2D0B;
+ display: flex;
+ justify-content: center;
+ height: 100vh;
+ font-family: 'Monsterrat', sans-serif;
+ position: relative;
+ padding: 2rem 0;
+}
+
+/* Checkout Container CSS */
+.payment-container .checkout-container {
+ max-width: 120rem;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ justify-content: center;
+}
+
+/* Left Side Container CSS */
+.payment-container .left-side {
+ background: url('../photos/stu.jpg');
+ background-position: center;
+ background-size: cover;
+ position: relative;
+}
+
+/* Text Box CSS */
+.payment-container .text-box {
+ background: #4B2D0B;
+ width: 100%;
+ padding: 1.25rem 2rem; /* 20px at 62.5% */
+ position: absolute;
+ bottom: 0;
+}
+
+/* Home Heading CSS */
+.payment-container .home-heading {
+ color: white;
+ font-size: 2rem; /* 32px at 62.5% */
+ font-weight: 700;
+ line-height: 1;
+ margin-bottom: 0.625rem; /* 10px at 62.5% */
+}
+
+/* Home Price CSS */
+.payment-container .home-price {
+ color: white;
+ font-size: 1.25rem; /* 20px at 62.5% */
+ margin-bottom: 0.75rem; /* 12px at 62.5% */
+}
+
+/* Home Description CSS */
+.payment-container .home-desc {
+ color: #e8e8e1;
+ font-size: 0.75rem; /* 12px at 62.5% */
+ line-height: 1.5;
+ letter-spacing: 0.3125px; /* 5px at 62.5% */
+}
+
+/* Right Side Container CSS */
+.payment-container .right-side {
+ background-color: #fff;
+ padding: 1.125rem 1.875rem; /* 18px 30px at 62.5% */
+}
+
+/* Receipt CSS */
+.payment-container .receipt {
+ display: flex;
+ flex-direction: column;
+ gap: 0.625rem; /* 10px at 62.5% */
+ border-bottom: solid 1px;
+ margin-bottom: 0.625rem; /* 10px at 62.5% */
+}
+
+/* Receipt Heading CSS */
+.payment-container .receipt-heading {
+ font-size: 1rem; /* 16px at 62.5% */
+ text-align: left;
+}
+
+/* Table CSS */
+.payment-container .table {
+ border-collapse: separate;
+ border-spacing: 0 0.9375rem; /* 0 15px at 62.5% */
+ color: #64645f;
+ font-size: 0.75rem; /* 12px at 62.5% */
+ margin-bottom: 0.3125rem; /* 5px at 62.5% */
+ width: 100%;
+}
+
+/* Total CSS */
+.payment-container .total td {
+ font-size: 0.875rem; /* 14px at 62.5% */
+ font-weight: 700;
+}
+
+/* Price CSS */
+.payment-container .price {
+ text-align: end;
+}
+
+/* Payment Heading CSS */
+.payment-container .payment-heading {
+ font-size: 0.875rem; /* 14px at 62.5% */
+ margin-bottom: 0.625rem; /* 10px at 62.5% */
+}
+
+/* Form Box CSS */
+.payment-container .form-box {
+ display: grid;
+ grid-template-rows: 1fr;
+ gap: 0.9375rem; /* 15px at 62.5% */
+}
+
+/* Card Logo CSS */
+.payment-container .card-logo {
+ font-size: 1.25rem; /* 20px at 62.5% */
+}
+
+/* Expires CSS */
+.payment-container .expires,
+.payment-container .form-box label {
+ font-size: 0.75rem; /* 12px at 62.5% */
+ font-weight: 700;
+}
+
+/* Form Box Input CSS */
+.payment-container .form-box input {
+ font-family: inherit;
+ font-size: 0.75rem; /* 12px at 62.5% */
+ padding: 0.3125rem; /* 5px at 62.5% */
+ width: 100%;
+}
+
+/* Form Box Select CSS */
+.payment-container .form-box select {
+ padding: 0.3125rem; /* 5px at 62.5% */
+}
+
+/* CVV Info CSS */
+.payment-container .cvv-info:link,
+.payment-container .cvv-info:visited {
+ color: inherit;
+ text-decoration: underline;
+}
+
+.payment-container .cvv-info:hover,
+.payment-container .cvv-info:active {
+ color: #5f7986;
+ text-decoration: none;
+}
+
+/* Button CSS */
+.payment-container .btn {
+ background-color: #4B2D0B;
+ border: none;
+ border-radius: 0.5rem; /* 8px at 62.5% */
+ color: #eff2f3;
+ font-size: 1rem; /* 16px at 62.5% */
+ font-weight: 700;
+ letter-spacing: 0.3125px; /* 5px at 62.5% */
+ margin-bottom: 0.625rem; /* 10px at 62.5% */
+ padding: 0.9375rem; /* 15px at 62.5% */
+ cursor: pointer;
+}
+
+/* Button Hover CSS */
+.payment-container .btn:hover {
+ background-color: tan;
+ transition: ease-out 0.1s;
+}
+
+/* Footer Text CSS */
+.payment-container .footer-text {
+ font-size: 0.625rem; /* 10px at 62.5% */
+ text-align: center;
+}
+
+/* Form Box Focus CSS */
+.payment-container .form-box *:focus {
+ outline: none;
+ box-shadow: 0 0 0 0.5rem rgba(139, 139, 107, 0.5);
+ border-radius: 0.5rem; /* 8px at 62.5% */
+}
+
+/* Popup CSS */
+.payment-container .popup {
+ display: none;
+ position: fixed;
+ z-index: 1;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Popup Content CSS */
+.payment-container .popup-content {
+ background-color: #fefefe;
+ margin: 10% auto;
+ padding: 1.25rem; /* 20px at 62.5% */
+ border: 0.0625rem solid #888; /* 1px at 62.5% */
+ width: 19rem; /* 300px at 62.5% */
+ height: 21rem; /* 280px at 62.5% */
+ text-align: center;
+ box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.3); /* 5px 15px at 62.5% */
+ border-radius: 0.625rem; /* 10px at 62.5% */
+}
+
+/* Close Button CSS */
+.payment-container .close-button {
+ color: #aaa;
+ float: right;
+ font-size: 1.75rem; /* 28px at 62.5% */
+ font-weight: bold;
+}
+
+/* Close Button Hover CSS */
+.payment-container .close-button:hover,
+.payment-container .close-button:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+/* Tick Mark Container CSS */
+.payment-container .tick-mark-container {
+ position: absolute;
+ top: 1rem; /* 110px at 62.5% */
+ left: 50%;
+ transform: translateX(-50%);
+ background-color: white;
+ border-radius: 50%;
+ border: 0.125rem solid #b17d1d; /* 2px at 62.5% */
+ padding: 0.625rem; /* 10px at 62.5% */
+ z-index: 100;
+}
+
+/* Tick Mark CSS */
+.payment-container .tick-mark {
+ color: #4B2D0B;
+ font-size: 3.125rem; /* 50px at 62.5% */
+}
+
+#student-name-box {
+ border: 1px solid #ccc;
+ padding: 8px;
+ width: 100%;
+ box-sizing: border-box;
+ background-color: #f9f9f9;
+}
