@@ -24,10 +24,9 @@
 - **Navigation**: Access home and logout options.
 
 ### For Administrators
-- **User Management**: Manage student and mentor profiles.
+- **User Management**: Access student and mentor profiles.
 - **Transaction Monitoring**: Oversee transactions and resolve issues.
 - **Platform Maintenance**: Ensure functionality and address technical issues.
-- **Info Sections**: Access mentor and student details, and transaction history.
 
 ### General Access
 - **Homepage**: Available to all visitors.
