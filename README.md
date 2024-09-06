@@ -114,7 +114,8 @@ Make sure your MongoDB server is running locally or provide a cloud MongoDB conn
 ## Visuals of the UniJunction Frontend
 
 #### Homepage:
-![home1](https://github.com/user-attachments/assets/5da4c06b-e77b-4129-be79-65484cbabf3d)
+
+![home1](https://github.com/user-attachments/assets/b61bf18f-af2f-484b-9bfe-a4d0f487ac5e)
 ![h2](https://github.com/user-attachments/assets/c025b7ea-7eed-41b6-952f-c8b6e58e4a43)
 ![h3](https://github.com/user-attachments/assets/011abf52-3dc7-405f-84f4-9024b7061c4b)
 ![h4](https://github.com/user-attachments/assets/458e2e03-f869-462e-b2c7-31cf034f769f)
@@ -126,7 +127,8 @@ Make sure your MongoDB server is running locally or provide a cloud MongoDB conn
 
 
 #### Student's User Profile:
-![s1](https://github.com/user-attachments/assets/4cca88a8-6be6-48bf-b902-71c92cad8ccb)
+
+![s1](https://github.com/user-attachments/assets/4208d92c-3a3e-47b4-a5e7-57875fc23f83)
 ![s2](https://github.com/user-attachments/assets/8e4297b9-ee75-429e-b0e7-471eaebb503c)
 
 <p align="center">
@@ -136,19 +138,19 @@ Make sure your MongoDB server is running locally or provide a cloud MongoDB conn
 
 ![b3](https://github.com/user-attachments/assets/5c5badc6-1059-41c8-84f4-7f0508e2ba17)
 ![li](https://github.com/user-attachments/assets/f76011b0-6a02-4bf2-ad8c-390cbc20aba0)
-![wishlist](https://github.com/user-attachments/assets/af4be13a-e4c3-4352-ae7a-29c3f1ef31ec)
+![wishlist](https://github.com/user-attachments/assets/6a55b923-1a7b-4f6f-854c-7ad06fe40c9f)
 
 #### Mentor's User Profile:
-![m1](https://github.com/user-attachments/assets/0c4efa52-5eb7-45e5-906e-47120c81c6bb)
+![m1](https://github.com/user-attachments/assets/777f10ba-07e8-41f9-a9ef-c23f0b4784bc)
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6ac714f7-f924-496b-96a7-3d318ca06513" alt="mentor profile 2" width="45%" />
   <img src="https://github.com/user-attachments/assets/a72cd908-8e87-4d3e-8ef3-ea64736dc288" alt="mentor profile 3" width="45%" />
 </p>
 
 #### Admin's User Profile:
-![a1](https://github.com/user-attachments/assets/f1cadf6f-e9f8-4803-b2dc-00a0c7d534d7)
-![a2](https://github.com/user-attachments/assets/fd89aeb8-117e-4e70-af61-5fa222abc018)
-![a3](https://github.com/user-attachments/assets/e2972702-8338-4030-ac9b-0d60dd57519a)
+![a1](https://github.com/user-attachments/assets/ff0c9e62-e99e-4d48-bff8-902f9e0a0f64)
+![a2](https://github.com/user-attachments/assets/83203a78-b168-4775-a7ac-5a262382b0c0)
+![a3](https://github.com/user-attachments/assets/e43d97e4-5b75-464f-9d9b-5315ace1f330)
 ![a4](https://github.com/user-attachments/assets/16045173-0ffe-4640-9bfe-91f2ffae5208)
 
 
