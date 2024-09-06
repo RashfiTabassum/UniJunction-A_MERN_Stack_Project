@@ -110,7 +110,23 @@ The frontend will be running at http://localhost:3000.
 ### MongoDB Setup
 
 Make sure your MongoDB server is running locally or provide a cloud MongoDB connection string in the .env file.
-![dgg](https://github.com/user-attachments/assets/8d773a80-ea07-4d80-834b-eb1169b786e3)
+
+![home1](https://github.com/user-attachments/assets/5da4c06b-e77b-4129-be79-65484cbabf3d)
+![h2](https://github.com/user-attachments/assets/c025b7ea-7eed-41b6-952f-c8b6e58e4a43)
+![h3](https://github.com/user-attachments/assets/011abf52-3dc7-405f-84f4-9024b7061c4b)
+![h4](https://github.com/user-attachments/assets/458e2e03-f869-462e-b2c7-31cf034f769f)
+![h5](https://github.com/user-attachments/assets/67504558-bf2c-4d6a-8884-c9db133c7d45)
+![h6](https://github.com/user-attachments/assets/da72ef3e-6c71-44ba-802e-63c5121c25fb)
+![li](https://github.com/user-attachments/assets/f76011b0-6a02-4bf2-ad8c-390cbc20aba0)
+![mentor profile1](https://github.com/user-attachments/assets/3a8b59df-72b6-4754-86a9-3cff86f478d4)
+![mentor profile 2](https://github.com/user-attachments/assets/ced40e6b-f6f0-4024-8bb5-5143e5d60988)
+![mentor profile 3](https://github.com/user-attachments/assets/8c527e69-c286-436f-8512-c6a0ffa81e36)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ced40e6b-f6f0-4024-8bb5-5143e5d60988" alt="mentor profile 2" width="45%" />
+  <img src="https://github.com/user-attachments/assets/8c527e69-c286-436f-8512-c6a0ffa81e36" alt="mentor profile 3" width="45%" />
+</p>
+
 
 
 
