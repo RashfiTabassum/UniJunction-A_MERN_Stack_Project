@@ -110,6 +110,7 @@ The frontend will be running at http://localhost:3000.
 ### MongoDB Setup
 
 Make sure your MongoDB server is running locally or provide a cloud MongoDB connection string in the .env file.
+![dgg](https://github.com/user-attachments/assets/8d773a80-ea07-4d80-834b-eb1169b786e3)
 
 
 
