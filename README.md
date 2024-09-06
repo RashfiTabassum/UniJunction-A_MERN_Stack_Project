@@ -121,6 +121,9 @@ Make sure your MongoDB server is running locally or provide a cloud MongoDB conn
 ![h4](https://github.com/user-attachments/assets/458e2e03-f869-462e-b2c7-31cf034f769f)
 ![h5](https://github.com/user-attachments/assets/67504558-bf2c-4d6a-8884-c9db133c7d45)
 ![h6](https://github.com/user-attachments/assets/da72ef3e-6c71-44ba-802e-63c5121c25fb)
+
+#### Mentor's Profile for Anyone visiting the website:
+
 ![mentor profile1](https://github.com/user-attachments/assets/3a8b59df-72b6-4754-86a9-3cff86f478d4)
 ![mentor profile 2](https://github.com/user-attachments/assets/ced40e6b-f6f0-4024-8bb5-5143e5d60988)
 ![mentor profile 3](https://github.com/user-attachments/assets/8c527e69-c286-436f-8512-c6a0ffa81e36)
