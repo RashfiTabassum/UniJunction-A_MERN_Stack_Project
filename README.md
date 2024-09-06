@@ -1,6 +1,19 @@
 <<<<<<< HEAD
 # UniJunction-A_MERN_Stack_Project
-=======
+**UniJunction** is a full-stack web application built with the MERN stack, designed to facilitate seamless Alumni-Student connections. The platform allows students to connect with alumni for personalized, paid mentorship, helping them navigate the complexities of higher education and university selection.
+
+## Features
+
+- **Alumni-Student Connections**: A streamlined interface that allows students to find and connect with alumni based on their academic goals and interests.
+- **Enhanced Alumni Profiles**: Alumni can create comprehensive profiles, showcasing their academic experiences and offering paid mentorship opportunities.
+- **Comprehensive University Information**: Students gain access to detailed insights about prospective universities, empowering them to make informed decisions.
+- **Secure Transactions**: A robust payment system ensures safe and transparent transactions between students and mentors during paid mentorship sessions.
+
+## Motivation
+
+**UniJunction** is inspired by the challenges students face when seeking guidance for higher education. With the growing complexity of choosing the right universities, especially for international students, this platform seeks to provide personalized support and informed mentorship through paid services, ultimately enhancing the academic decision-making process.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
