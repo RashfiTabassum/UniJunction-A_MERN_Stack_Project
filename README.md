@@ -111,22 +111,43 @@ The frontend will be running at http://localhost:3000.
 
 Make sure your MongoDB server is running locally or provide a cloud MongoDB connection string in the .env file.
 
+## Visuals of the UniJunction Frontend
+
+#### Homepage:
 ![home1](https://github.com/user-attachments/assets/5da4c06b-e77b-4129-be79-65484cbabf3d)
 ![h2](https://github.com/user-attachments/assets/c025b7ea-7eed-41b6-952f-c8b6e58e4a43)
 ![h3](https://github.com/user-attachments/assets/011abf52-3dc7-405f-84f4-9024b7061c4b)
 ![h4](https://github.com/user-attachments/assets/458e2e03-f869-462e-b2c7-31cf034f769f)
 ![h5](https://github.com/user-attachments/assets/67504558-bf2c-4d6a-8884-c9db133c7d45)
 ![h6](https://github.com/user-attachments/assets/da72ef3e-6c71-44ba-802e-63c5121c25fb)
-![li](https://github.com/user-attachments/assets/f76011b0-6a02-4bf2-ad8c-390cbc20aba0)
 ![mentor profile1](https://github.com/user-attachments/assets/3a8b59df-72b6-4754-86a9-3cff86f478d4)
 ![mentor profile 2](https://github.com/user-attachments/assets/ced40e6b-f6f0-4024-8bb5-5143e5d60988)
 ![mentor profile 3](https://github.com/user-attachments/assets/8c527e69-c286-436f-8512-c6a0ffa81e36)
 
+
+#### Student's User Profile:
+![s1](https://github.com/user-attachments/assets/4cca88a8-6be6-48bf-b902-71c92cad8ccb)
+![s2](https://github.com/user-attachments/assets/8e4297b9-ee75-429e-b0e7-471eaebb503c)
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ced40e6b-f6f0-4024-8bb5-5143e5d60988" alt="mentor profile 2" width="45%" />
-  <img src="https://github.com/user-attachments/assets/8c527e69-c286-436f-8512-c6a0ffa81e36" alt="mentor profile 3" width="45%" />
+  <img src="https://github.com/user-attachments/assets/0b92a5ad-d774-49fb-b92f-388d4bb711e9" alt="mentor profile 2" width="45%" />
+  <img src="https://github.com/user-attachments/assets/e6737091-3ab2-4fb0-aa66-2574fce5880c" alt="mentor profile 3" width="45%" />
+</p>
+![b3](https://github.com/user-attachments/assets/5c5badc6-1059-41c8-84f4-7f0508e2ba17)
+![li](https://github.com/user-attachments/assets/f76011b0-6a02-4bf2-ad8c-390cbc20aba0)
+![wishlist](https://github.com/user-attachments/assets/af4be13a-e4c3-4352-ae7a-29c3f1ef31ec)
+
+#### Mentor's User Profile:
+![m1](https://github.com/user-attachments/assets/0c4efa52-5eb7-45e5-906e-47120c81c6bb)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6ac714f7-f924-496b-96a7-3d318ca06513" alt="mentor profile 2" width="45%" />
+  <img src="https://github.com/user-attachments/assets/a72cd908-8e87-4d3e-8ef3-ea64736dc288" alt="mentor profile 3" width="45%" />
 </p>
 
+#### Admin's User Profile:
+![a1](https://github.com/user-attachments/assets/f1cadf6f-e9f8-4803-b2dc-00a0c7d534d7)
+![a2](https://github.com/user-attachments/assets/fd89aeb8-117e-4e70-af61-5fa222abc018)
+![a3](https://github.com/user-attachments/assets/e2972702-8338-4030-ac9b-0d60dd57519a)
+![a4](https://github.com/user-attachments/assets/16045173-0ffe-4640-9bfe-91f2ffae5208)
 
 
 
