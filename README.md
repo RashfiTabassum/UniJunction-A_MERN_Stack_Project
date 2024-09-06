@@ -128,10 +128,12 @@ Make sure your MongoDB server is running locally or provide a cloud MongoDB conn
 #### Student's User Profile:
 ![s1](https://github.com/user-attachments/assets/4cca88a8-6be6-48bf-b902-71c92cad8ccb)
 ![s2](https://github.com/user-attachments/assets/8e4297b9-ee75-429e-b0e7-471eaebb503c)
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0b92a5ad-d774-49fb-b92f-388d4bb711e9" alt="mentor profile 2" width="45%" />
   <img src="https://github.com/user-attachments/assets/e6737091-3ab2-4fb0-aa66-2574fce5880c" alt="mentor profile 3" width="45%" />
 </p>
+
 ![b3](https://github.com/user-attachments/assets/5c5badc6-1059-41c8-84f4-7f0508e2ba17)
 ![li](https://github.com/user-attachments/assets/f76011b0-6a02-4bf2-ad8c-390cbc20aba0)
 ![wishlist](https://github.com/user-attachments/assets/af4be13a-e4c3-4352-ae7a-29c3f1ef31ec)
