@@ -122,8 +122,9 @@ Make sure your MongoDB server is running locally or provide a cloud MongoDB conn
 ![h5](https://github.com/user-attachments/assets/67504558-bf2c-4d6a-8884-c9db133c7d45)
 ![h6](https://github.com/user-attachments/assets/da72ef3e-6c71-44ba-802e-63c5121c25fb)
 
-#### Mentor's Profile for Anyone visiting the website:
+#### Mentor's List & Profile for Anyone visiting the website:
 
+![li1](https://github.com/user-attachments/assets/be71b655-e959-487c-8f6b-8016ce574ff2)
 ![mentor profile1](https://github.com/user-attachments/assets/3a8b59df-72b6-4754-86a9-3cff86f478d4)
 ![mentor profile 2](https://github.com/user-attachments/assets/ced40e6b-f6f0-4024-8bb5-5143e5d60988)
 ![mentor profile 3](https://github.com/user-attachments/assets/8c527e69-c286-436f-8512-c6a0ffa81e36)
@@ -151,7 +152,7 @@ Make sure your MongoDB server is running locally or provide a cloud MongoDB conn
 </p>
 
 #### Admin's User Profile:
-![a1](https://github.com/user-attachments/assets/ff0c9e62-e99e-4d48-bff8-902f9e0a0f64)
+![a1](https://github.com/user-attachments/assets/2bba8200-b0d8-4e80-81e9-501c9fd4f0ca)
 ![a2](https://github.com/user-attachments/assets/83203a78-b168-4775-a7ac-5a262382b0c0)
 ![a3](https://github.com/user-attachments/assets/e43d97e4-5b75-464f-9d9b-5315ace1f330)
 ![a4](https://github.com/user-attachments/assets/16045173-0ffe-4640-9bfe-91f2ffae5208)
