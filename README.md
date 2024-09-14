@@ -1,7 +1,7 @@
 
 # UniJunction - A MERN Full Stack Platform
 
-**UniJunction** is a full-stack web application built with the MERN stack, designed to facilitate seamless Alumni-Student connections. The platform allows students to connect with alumni for personalized, paid mentorship, helping them navigate the complexities of higher education and university selection.
+**UniJunction** is a full-stack web application built with the MERN stack, designed to facilitate Alumni-Student connections. The platform allows students to connect with alumni for personalized, paid mentorship, helping them navigate the complexities of higher education and university selection.
 
 ## Motivation
 
